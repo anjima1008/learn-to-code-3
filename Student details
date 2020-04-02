@@ -1,0 +1,21 @@
+//program written by anjima to display the details of the student
+
+#include <stdio.h>
+
+//Compiler version gcc  6.3.0
+
+int main()
+{
+  char charname[]= "Gaadha Saji";
+  char charschool[]="S N Vidhya Peetdom";
+  int charage=17;
+  int charclass=12;
+  double charmarks=97.56;
+  printf("Name of the student:%s\n",charname);
+  printf("School of the student:%s\n",charschool);
+  printf("Age of the student:%d\n",charage);
+  printf("Class of the student:%d\n",charclass);
+  printf("Marks scored by the student:%f\n",charmarks);
+
+    return 0;
+}
